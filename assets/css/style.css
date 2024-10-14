@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+.parent {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.agregar {
+    margin-bottom: 20px;
+}
+.recuento {
+    margin-bottom: 20px;
+}
+#contenedorTareas {
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+.tarea-item {
+    display: flex;
+    align-items: center; 
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.tarea-item:last-child {
+    border-bottom: none;
+}
+.tarea-id {
+    width: 40px; 
+    text-align: center; 
+}
+.boton-eliminar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+.boton-eliminar:hover {
+    background-color: darkred;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
+.checkbox-container {
+    display: flex; 
+    align-items: center; 
+    margin-left: auto; 
+}

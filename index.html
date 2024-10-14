@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+
+</head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="titulo">
+            <h1>TODOLIST</h1>
+        </div>
+        <div class="agregar">
+            <h2 class="titulo2">Nueva tarea</h2>
+            <input type="text" id="barraAgregar" placeholder="Agregar tarea...">
+            <button id="botonAgregar">Agregar</button>
+        </div>
+        <div class="recuento">
+            <h3 class="titulo3">Contador</h3>
+            <div class="p">
+                <p class="pContador">Realizadas: </p> <label id="elementosRealizados">0</label>
+            </div>
+            <div class="p">
+                <p class="pContador">Total: </p> <label id="totalTareas">0</label>
+            </div>
+        </div>
+        <div id="contenedorTareas">
+            <!-- Contenedor para tareas dinámico -->
+        </div>
+        <div class="footer">Todolist</div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
